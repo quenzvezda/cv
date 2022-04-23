@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Lora";
+}
+h1 {
+  font-family: "Whisper";
+  font-size: 6.25rem;
+  margin: 50px auto 0px auto;
+  color: rgb(61, 199, 146);
+}
+h2 {
+  font-family: "Kalam";
+  font-size: 2.5rem;
+  color: rgb(61, 199, 146);
+  font-weight: normal;
+}
+h3 {
+  font-family: "Kalam";
+  color: rgb(11, 166, 255);
+}
+
+a {
+  font-family: "Lato";
+  color: rgb(11, 166, 255);
+}
+
+p {
+  font-family: "Lato";
+}
+
+.topContainer {
+  background-color: rgb(214, 240, 231);
+  position: relative;
+  padding-top: 100px;
+}
+
+.topCloud {
+  position: relative;
+  left: 200px;
+}
+
+.bottomCloud {
+  position: absolute;
+}
+
+.mountain {
+  top: 4px;
+  position: relative;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.profile-pic {
+  width: 25%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.gaming-pic {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.computer-pic {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* .description-gaming {
+  clear: left;
+}
+
+.description-computer {
+  clear: right;
+}
+ */
