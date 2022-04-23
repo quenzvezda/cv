@@ -19,6 +19,12 @@ h3 {
   font-family: "Kalam";
   color: rgb(11, 166, 255);
 }
+hr {
+  border-style: dotted none none none;
+  border-width: 7px;
+  color: rgb(161, 161, 161);
+  width: 100px;
+}
 
 a {
   font-family: "Lato";
@@ -51,17 +57,20 @@ p {
 
 .profile {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 50px auto;
   line-height: 2;
 }
 
+.h2-profile {
+  margin: 10px auto 10px auto;
+}
 .profile-pic {
   width: 25%;
 }
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 50px auto;
   text-align: left;
   line-height: 2;
 }
@@ -78,11 +87,55 @@ p {
   margin-left: 30px;
 }
 
-/* .description-gaming {
-  clear: left;
+.bottom-container {
+  background-color: rgb(214, 240, 231);
+  padding: 25px;
 }
 
-.description-computer {
-  clear: right;
+.contact-me {
+  padding: 50px;
 }
- */
+
+.contact-description {
+  margin-bottom: 40px;
+}
+
+.footer-link {
+  padding: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #4e944f;
+}
+.copyright {
+  color: rgb(0, 0, 0);
+}
+
+.btn {
+  background: #44f5c9;
+  background-image: -webkit-linear-gradient(top, #44f5c9, #239683);
+  background-image: -moz-linear-gradient(top, #44f5c9, #239683);
+  background-image: -ms-linear-gradient(top, #44f5c9, #239683);
+  background-image: -o-linear-gradient(top, #44f5c9, #239683);
+  background-image: linear-gradient(to bottom, #44f5c9, #239683);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #05ffac;
+  background-image: -webkit-linear-gradient(top, #05ffac, #6bb9e0);
+  background-image: -moz-linear-gradient(top, #05ffac, #6bb9e0);
+  background-image: -ms-linear-gradient(top, #05ffac, #6bb9e0);
+  background-image: -o-linear-gradient(top, #05ffac, #6bb9e0);
+  background-image: linear-gradient(to bottom, #05ffac, #6bb9e0);
+  text-decoration: none;
+}
