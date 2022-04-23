@@ -24,6 +24,7 @@ hr {
   border-width: 7px;
   color: rgb(161, 161, 161);
   width: 100px;
+  clear: right;
 }
 
 a {
